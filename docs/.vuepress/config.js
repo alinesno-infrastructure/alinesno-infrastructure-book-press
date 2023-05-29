@@ -17,15 +17,7 @@ module.exports = {
         ],
         ['vuepress-plugin-code-copy', true] ,
         ['@vuepress/nprogress'] ,
-        ['@vuepress/back-to-top'] ,
-        ['@vssue/vuepress-plugin-vssue', { 
-            platform: 'github', 
-            owner: 'alinesno-cloud',
-            admins:['switchII'],
-            repo: 'alinesno-cloud-platform-press',
-            clientId: '27af56cba1b05d7313eb',
-            clientSecret: 'ecb6b64de79461454b8033b6c5790e6f8e8a1c87',
-        }],
+        ['@vuepress/back-to-top'] , 
         ['@vuepress/active-header-links', {
             sidebarLinkSelector: '.sidebar-link',
             headerAnchorSelector: '.header-anchor'
