@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/alinesno-cloud/alinesno-cloud-book-press",
   "author": "LuoXiaoDong <landonniao@163.com>",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "scripts": {
     "docs:dev": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs",
     "docs:build": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs"
