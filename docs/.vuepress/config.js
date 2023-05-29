@@ -28,7 +28,7 @@ module.exports = {
         logo: '/logo.png', // 注意图片放在 public 文件夹下
         lastUpdated: 'Last Updated',
         sidebarDepth: 2,
-        repo: 'https://github.com/alinesno-cloud/alinesno-cloud-platform-press',
+        repo: 'https://github.com/alinesno-cloud/alinesno-cloud-book-press',
         docsDir: 'docs',
         repoLabel: 'Github',
         docsBranch: '1.0.0-SNAHSPOT',
