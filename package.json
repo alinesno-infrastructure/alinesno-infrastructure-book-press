@@ -1,7 +1,7 @@
 {
   "name": "alinesno-cloud-book-press",
   "version": "1.0.0",
-  "description": "中小微团队从0到1落地中台架构建设实践过程",
+  "description": "中小微团队从0到1落地中台产品建设实践过程",
   "main": "index.js",
   "repository": "https://github.com/alinesno-cloud/alinesno-cloud-book-press",
   "author": "LuoXiaoDong <landonniao@163.com>",
