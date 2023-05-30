@@ -119,6 +119,7 @@ function genFirestLearnSidebar(type) {
   } else if (type == 1) {
     mapArr = [
       '/book/',
+      '/book/00_写在前面的话.md',
       '/book/01_国内行业软件发展的一些心得和规划.md',
       '/book/02_在新基建数字化的时代_寻找自我的突破和价值创造',
     ]
@@ -151,6 +152,7 @@ function genFirestLearnSidebar(type) {
       '/book/03_对大型互联网产品化战略和中台产品化的一些思考.md',
       '/book/19_基于中台技术规避数字化建设基础层问题.md',
       '/book/20_大型政务项目数字化研发平台架构建设和落地经验分享.md',
+      '/book/21_数据中台建设和落地的一些经验总结.md',
       '/book/21_从多城市落地中台的经验总结和标准化输出思考.md',
       '/book/22_对目前中台架构使用的的思考理解.md',
       '/book/24_把整个研发中台拆分过程的一些心得总结.md',
