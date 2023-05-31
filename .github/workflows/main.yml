@@ -10,10 +10,10 @@ jobs:
     runs-on: ${{ fromJSON('["ubuntu-latest", "self-hosted"]')[github.repository == 'github/docs-internal'] }}
     env:
       # 配置环境变量，包括镜像的名称，版本号，还有命名空间
-      PRO_NAME: alinesno-platform-press
-      PRO_VERSION: 2.1.3-Alpha.${{ github.run_number }}
+      PRO_NAME: alinesno-cloud-book-press
+      PRO_VERSION: 1.0.0.${{ github.run_number }}
       DOCKER_HUB_NAMESPACE: luoandong
-      EXPOSE_PORT: 84
+      EXPOSE_PORT: 85
       #  添加cdn配置
       accessKey: ${{ secrets.QINIU_ACCESS_KEY }}
       secretKey: ${{ secrets.QINIU_SECRET_KEY }}
@@ -50,7 +50,7 @@ jobs:
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
- 
+
       # -->>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 部署到docker-hub _start >>>>>>>>>>>>>>>>>>>>>>>>>>
       - name: Log in to Docker Hub
         uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
@@ -66,7 +66,7 @@ jobs:
           tags: ${{ env.DOCKER_HUB_NAMESPACE }}/${{ env.PRO_NAME }}:${{ env.PRO_VERSION }}
           labels: ${{ steps.meta.outputs.labels }}
       # -->>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 部署到docker-hub _end >>>>>>>>>>>>>>>>>>>>>>>>>>
-             
+
       # -->>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 部署到docker-hub _start >>>>>>>>>>>>>>>>>>>>>>>>>>
       - name: Log in to Docker Hub
         uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
