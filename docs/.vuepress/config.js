@@ -62,7 +62,7 @@ module.exports = {
     sidebar: {
       '/book/': [
         {
-          title: '行业发展思考与发展',
+          title: '行业发展与规划',
           collapsible: true,
           children: genFirestLearnSidebar(1)
         },
@@ -82,17 +82,17 @@ module.exports = {
           children: genFirestLearnSidebar(4)
         },
         {
-          title: '产品项目实战与落地',
+          title: '项目实战与落地',
           collapsible: true,
           children: genFirestLearnSidebar(5)
         },
         {
-          title: '中台架构实践心得',
+          title: '产品优化和输出',
           collapsible: true,
           children: genFirestLearnSidebar(6)
         },
         {
-          title: '附录',
+          title: '中台产品化心得',
           collapsible: true,
           children: genFirestLearnSidebar(7)
         },
@@ -143,28 +143,27 @@ function genFirestLearnSidebar(type) {
       '/book/12_企业级数字中台新一代标准中台产品基座规划.md',
       '/book/13_带研发团队从0到1做数字中台技术转型_上.md',
       '/book/14_在很多情况下不建议盲目使用微服务架构.md',
-      '/book/15_在微型团队管理数字中台产品的一些实践.md',
+      '/book/03_对大型互联网产品化战略和中台产品化的一些思考.md',
       '/book/17_对业务服务运维架构的一些设计思路.md',
     ]
   } else if (type == 5) {
     mapArr = [
-      '/book/18_带研发团队从0到1做数字中台技术转型_下.md',
-      '/book/03_对大型互联网产品化战略和中台产品化的一些思考.md',
       '/book/19_基于中台技术规避数字化建设基础层问题.md',
+      '/book/18_带研发团队从0到1做数字中台技术转型_下.md',
       '/book/20_大型政务项目数字化研发平台架构建设和落地经验分享.md',
       '/book/21_数据中台建设和落地的一些经验总结.md',
-      '/book/21_从多城市落地中台的经验总结和标准化输出思考.md',
-      '/book/22_对目前中台架构使用的的思考理解.md',
-      '/book/24_把整个研发中台拆分过程的一些心得总结.md',
+      '/book/15_在微型团队管理数字中台产品的一些实践.md',
+      '/book/18_在团队数字转型过程阐述和实战经验.md',
     ]
   } else if (type == 6) {
     mapArr = [
-      '/book/23_从0到1建立一款软件产品的一些心得总结 .md' ,
+      '/book/21_从多城市落地中台的经验总结和标准化输出思考.md',
+      '/book/24_把整个研发中台拆分过程的一些心得总结.md',
+      '/book/22_对目前中台架构使用的的思考理解.md',
     ]
   } else if (type == 7) {
     mapArr = [
-      '/book/25_体验中台——从架构到实现.md',
-      '/book/26_产品设计和落地过程手稿.md',
+      '/book/23_从0到1建立一款软件产品的一些心得总结 .md' ,
     ]
   } else if (type == 8) {
     mapArr = [
