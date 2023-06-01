@@ -55,7 +55,7 @@ module.exports = {
         link: '/book/'
       },
       {
-        text: '建设文档',
+        text: '架构设计',
         link: 'http://alinesno-platform.linesno.com'
       },
     ],
