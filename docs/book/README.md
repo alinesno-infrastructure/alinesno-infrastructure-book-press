@@ -1,5 +1,13 @@
 # 书籍简介
 
+> 部分图片为网上临时获取，涉及到侵权的请告知
+
+<img src="https://picx.zhimg.com/50/v2-36fcb01cb2a6312c10c7ad365a8e243f_qhd.webp" style="
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+">
+
 - 名称：中小微团队0到1数字中台产品建设实战
 
 ## 作者简介
