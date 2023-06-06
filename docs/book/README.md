@@ -18,7 +18,7 @@
 
 - 博客: [http://switch.linesno.com](http://switch.linesno.com)
 - 公众号: [软件工程师罗小东](https://mp.weixin.qq.com/s/QwStapU73BJ3eklh-sVZMA)
-- 邮箱: [luoandon@gmail.com](mailto:luoandon@gmail.com)
+- 邮箱: [luoandon#gmail.com](mailto:luoandon#gmail.com)
 
 ## 文档初衷
 
