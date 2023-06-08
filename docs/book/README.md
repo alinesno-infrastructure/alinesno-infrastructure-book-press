@@ -1,8 +1,8 @@
 # 书籍简介
 
-> 部分图片为网上临时获取，涉及到侵权的请告知
+> 设计第一版本对外Banner封面
 
-<img src="https://picx.zhimg.com/50/v2-36fcb01cb2a6312c10c7ad365a8e243f_qhd.webp" style="
+<img src="/book-cover.png" style="
     width: 250px;
     border-radius: 5px;
     box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
