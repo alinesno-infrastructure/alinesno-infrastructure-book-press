@@ -1,6 +1,6 @@
 module.exports = {
   lang: 'zh-CN',
-  title: '中小微团队0到1数字中台产品建设实战',
+  title: '中小团队0到1中台产品建设实战',
   description: '能够灵活满足企业数字化建设中各种场景的需要，更高效、专注的沉淀业务和数据能力，进而形成企业的业务和数据中台。通过能力的灵活组合，快速的应对当前快节奏的市场需求，助力企业数字化转型的成功。',
   base: '/',
   head: [
@@ -38,7 +38,7 @@ module.exports = {
     logo: '/logo.png', // 注意图片放在 public 文件夹下
     lastUpdated: 'Last Updated',
     sidebarDepth: 2,
-    repo: 'https://github.com/alinesno-cloud/alinesno-cloud-book-press',
+    repo: 'https://github.com/alinesno-infrastructure/alinesno-infrastructure-book-press',
     docsDir: 'docs',
     repoLabel: 'Github',
     docsBranch: 'main',
@@ -56,7 +56,7 @@ module.exports = {
       },
       {
         text: '架构设计',
-        link: 'http://alinesno-platform.linesno.com'
+        link: 'http://portal.infra.linesno.com'
       },
     ],
     sidebar: {
@@ -153,7 +153,7 @@ function genFirestLearnSidebar(type) {
       '/book/20_大型政务项目数字化研发平台架构建设和落地经验分享.md',
       '/book/21_数据中台建设和落地的一些经验总结.md',
       '/book/24_在中小型项目SuperCell模式实战经验.md',
-      '/book/15_在微型团队管理数字中台产品的一些实践.md',
+      '/book/15_在微型团队管理中台产品的一些实践.md',
       '/book/18_在团队数字转型过程阐述和实战经验.md',
     ]
   } else if (type == 6) {

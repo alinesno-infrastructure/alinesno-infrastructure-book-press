@@ -17,9 +17,9 @@ jobs:
       #  添加cdn配置
       accessKey: ${{ secrets.QINIU_ACCESS_KEY }}
       secretKey: ${{ secrets.QINIU_SECRET_KEY }}
-      spaceBucket: acp-document-site
+      spaceBucket: AIP-document-site
       remoteFolder: /
-      domain: http://acp-document.linesno.com
+      domain: http://AIP-document.linesno.com
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2
