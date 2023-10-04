@@ -153,7 +153,7 @@ function genFirestLearnSidebar(type) {
       '/book/20_大型政务项目数字化研发平台架构建设和落地经验分享.md',
       '/book/21_数据中台建设和落地的一些经验总结.md',
       '/book/24_在中小型项目SuperCell模式实战经验.md',
-      '/book/15_在微型团队管理中台产品的一些实践.md',
+      '/book/15_在微型团队管理数字中台产品的一些实践.md',
       '/book/18_在团队数字转型过程阐述和实战经验.md',
     ]
   } else if (type == 6) {
