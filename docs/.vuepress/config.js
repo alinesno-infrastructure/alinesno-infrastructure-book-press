@@ -32,7 +32,16 @@ module.exports = {
       sidebarLinkSelector: '.sidebar-link',
       headerAnchorSelector: '.header-anchor'
     }],
-    ['@vuepress/medium-zoom']
+    ['@vuepress/medium-zoom'],
+    [
+      '@vuepress/plugin-redirect',
+      {
+        redirects: {
+          // 从根路径跳转到指定路径
+          '/': '/book/'
+        }
+      }
+    ]
   ],
   themeConfig: {
     logo: '/logo.png', // 注意图片放在 public 文件夹下
