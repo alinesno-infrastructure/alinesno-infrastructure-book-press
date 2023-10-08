@@ -1,7 +1,7 @@
 {
   "name": "alinesno-cloud-book-press",
   "version": "1.0.0",
-  "description": "中小团队0到1中台产品建设实战过程",
+  "description": "中小团队数字中台产品建设实战过程",
   "main": "index.js",
   "repository": "https://github.com/alinesno-cloud/alinesno-cloud-book-press",
   "author": "LuoXiaoDong <landonniao@163.com>",
