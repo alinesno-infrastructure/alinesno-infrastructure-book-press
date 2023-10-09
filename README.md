@@ -2,11 +2,7 @@
 
 > 书中涉及到的一些项目相关内容做过一定的脱敏处理 设计第一版本对外Banner封面
 
-<img src="/book-cover.png" style="
-    width: 300px;
-    border-radius: 5px;
-    box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
-">
+<img src="/book-cover.png" style="width: 250px;border-radius: 5px;box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);">
 
 ## 文档初衷
 
