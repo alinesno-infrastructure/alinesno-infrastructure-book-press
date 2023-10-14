@@ -92,7 +92,7 @@ module.exports = {
           children: genFirestLearnSidebar(6)
         },
         {
-          title: '中台产品化心得',
+          title: '中台产品化总结',
           collapsible: true,
           children: genFirestLearnSidebar(7)
         },
